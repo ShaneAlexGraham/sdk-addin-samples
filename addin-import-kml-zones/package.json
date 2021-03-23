@@ -66,5 +66,10 @@
             "Spinner": true,
             "jscolor": true
         }
+    },
+    "scripts": {
+        "postinstall": "bower install",
+        "build": "gulp build",
+        "start": "gulp serve"
     }
 }

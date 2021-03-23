@@ -62,5 +62,10 @@
     },
     "dependencies": {
         "@babel/polyfill": "^7.2.5"
+    },
+    "scripts": {
+        "postinstall": "bower install",
+        "build": "gulp build",
+        "start": "gulp serve"
     }
 }
